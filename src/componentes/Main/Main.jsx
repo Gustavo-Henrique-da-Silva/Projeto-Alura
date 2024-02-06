@@ -23,7 +23,7 @@ import Playlist15 from "../../assets/playlist/15.jpeg";
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/../src/api-artists/artists.json'); // Caminho relativo ao diretório 'public'
+        const response = await fetch('/api-artists/artists.json'); // Caminho relativo ao diretório 'public'
         const data = await response.json();
 
         // Verifica se a propriedade 'artists' existe no JSON
